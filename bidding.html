@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name = "description" content="COS80021 - Assignment 2" />
+    <meta name="author" content="Sam Sam Lei (103196737)"  />
+    <!-- <title>Index Page</title> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- References to external font 'Love Ya Like A Sister' -->
+    <link href='https://fonts.googleapis.com/css2?family=Crimson+Pro' rel='stylesheet'/>
+    <title>Bidding Page</title>
+    <!-- References to external JavaScript file -->
+    <script src="bidding.js"></script>
+</head>
+
+<body onload="loadItems()">
+
+<H1>ShopOnline</H1>
+
+    <div id=head> 
+        <nav>
+            <!-- <a href="login.html" class="menu">Log In</a> -->
+            <a href="listing.html" class="menu">Listing</a>
+            <a href="bidding.html" class="menu">Bidding</a>
+            <a href="maintenance.html" class="menu">Maintenance</a>
+            <a href="logout.html" class="menu">Log Out</a>
+        </nav>
+    </div>
+      <!-- </div> -->
+
+</br>
+
+<p>Current auction items are listed below.  To place a bid for an item, use the Place Bid button.</p>
+<p>NOTE: item remaining time and bid prices are updated every 10 seconds.</p>
+<div id="bidResult">
+</div>
+
+
+<br/>
+<div id="itemsForAuction">
+</div>
+</body>
+</html>

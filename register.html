@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name = "description" content="COS80021 - Assignment 2" />
+    <meta name="author" content="Sam Sam Lei (103196737)"  />
+    <!-- <title>Index Page</title> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- References to external font 'Love Ya Like A Sister' -->
+    <link href='https://fonts.googleapis.com/css2?family=Crimson+Pro' rel='stylesheet'/>
+    <title>Registration Page</title>
+    <!-- References to external JavaScript file -->
+    <script src="register.js"></script>
+    <script src="logout.js"></script>
+</head>
+
+<body>
+
+<H1>ShopOnline</H1>
+
+<div id=head> 
+        <nav>
+             <a href="login.html" class="menu">Log In</a>
+             <!-- <a href="listing.html" class="menu">Listing</a>
+             <a href="bidding.html" class="menu">Bidding</a>
+             <a href="maintenance.html" class="menu">Maintenance</a> -->
+             <!-- <a href="logout.html" class="menu">Log Out</a> -->
+        </nav>
+    </div>
+    <br/>
+    <div id="registerResult"></div>
+
+<form>
+    <fieldset id="userRegister">
+        <legend><h4>Registration Details</h4></legend>
+   
+        <div>  
+            <span class="redText">* Required Fields</span></br></br>     
+            <label>First name<span class="redText">*</span></label>
+            <input type="text" name= "firstname" id="firstname" pattern="[A-Za-z\s]{0,25}" size="30" required="required"/><br/><br/>
+            <label>Surname<span class="redText">*</span></label>
+            <input type="text" name= "surname" id="surname" pattern="[A-Za-z\s]{0,25}" size="30" required="required"/><br/><br/>
+            <label>Email<span class="redText">*</span></label>
+            <input type="email" name= "email" id="email" size="30" required="required" /><br/><br/>
+            <label>Password<span class="redText">*</span></label>
+            <input type="password" name= "password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8, 16}" size="16" required="required"/><br/><br/>
+            <!-- contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters -->
+            <label>Confirm password<span class="redText">*</span></label>
+            <input type="password" name= "confirmed_pwd" id="confirmed_pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8, 16}" size="16" required="required"/><br/><br/>
+            
+        </div> 
+   
+        <input type="button" value="Register" class="blueButton" onclick="getResults()"/> 
+        <input type="reset" value="Reset"/> </br>
+    </fieldset>
+</form>
+
+</br>
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name = "description" content="COS80021 - Assignment 2" />
+    <meta name="author" content="Sam Sam Lei (103196737)"  />
+    <!-- <title>Index Page</title> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- References to external font 'Love Ya Like A Sister' -->
+    <link href='https://fonts.googleapis.com/css2?family=Crimson+Pro' rel='stylesheet'/>
+    <title>Maintenance Page</title>
+    <!-- References to external JavaScript file -->
+    <script src="maintenance.js"></script>
+    <script src="logout.js"></script>
+</head>
+
+<body>
+
+<H1>ShopOnline</H1>
+
+    <div id=head> 
+        <nav>
+            <!-- <a href="login.html" class="menu">Log In</a> -->
+            <a href="listing.html" class="menu">Listing</a>
+            <a href="bidding.html" class="menu">Bidding</a>
+            <a href="maintenance.html" class="menu">Maintenance</a>
+            <a href="logout.html" class="menu">Log Out</a>
+        </nav>
+    </div>
+      <!-- </div> -->
+
+</br>
+
+<p><button type="button" id="processAuctionItems" class="blueButton" onclick="processAuctionItems()">Process Auction Items</button>
+    <button type="button" id="generateReport" class="blueButton" onclick="generateReport()">Generate Report</button></p>
+
+<div id="processAuctionItemsConfirmation">
+</div>
+
+<div id="report">
+</div>
+    
+</body>
+</html>

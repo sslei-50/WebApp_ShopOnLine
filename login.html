@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name = "description" content="COS80021 - Assignment 2" />
+    <meta name="author" content="Sam Sam Lei (103196737)"  />
+    <!-- <title>Index Page</title> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- References to external font 'Love Ya Like A Sister' -->
+    <link href='https://fonts.googleapis.com/css2?family=Crimson+Pro' rel='stylesheet'/>
+    <title>Login Page</title>
+    <!-- References to external JavaScript file -->
+    <script src="login.js"></script>
+</head>
+
+<body>
+
+<H1>ShopOnline</H1>
+
+   <div id=head> 
+        <nav>
+            <a href="login.html" class="menu">Log In</a>
+            <!-- <a href="listing.html" class="menu">Listing</a>
+            <a href="bidding.html" class="menu">Bidding</a>
+            <a href="maintenance.html" class="menu">Maintenance</a>
+            <button type="button" class="menu" onclick="getLogOutResult()">Log out</button>  -->
+        </nav>
+    </div>
+   
+</br>
+
+<p>Please login below or to register as a new user. <a href="register.html" class="redText">Register Here</a> </p>
+
+<div id="log_in_out_Result"></div>
+
+<form>    
+  <fieldset id="userLogin">
+     <legend><h4>Login Details</h4></legend>
+        <div>  
+            <span class="redText">* Required Fields</span></br></br>  
+            <label>Email<span class="redText">*</span></label>
+            <input type="email" name="email" id="email" size = "30" required/><br/><br/>
+            <label>Password<span class="redText">*</span></label>
+            <input type="password" name="password" id="password" minlength = "8" maxlength = "16"  required /><br/><br/>
+        </div> 
+   
+        <input type="button" value="Login" class="blueButton" onclick="getLogInResult()"/> 
+        <input type="reset" value="Reset"/> </br>
+
+    </fieldset>	
+</form>
+
+
+</body>
+</html>

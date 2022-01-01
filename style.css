@@ -1,0 +1,258 @@
+/*
+author: Sam Sam Lei (103196737)
+Purpose: COS80021 Assignment 2
+description: style sheet for login.html, register.html, listing.html, bidding.html and maintenance.html
+*/
+
+/*css style rules apply to all html pages*/
+*{
+	font-family: calarbri, sans-serif;
+	color:black;
+	margin-left: 8px;
+	margin-right: 8px;	
+} 
+
+/*css style rules apply to all html pages*/
+body, html{
+	height: 100%;
+	margin: 0;
+	background-color: rgb(237, 240, 241);
+	line-height: 20px;
+	text-align: center ;
+}
+
+/*css style rules apply to all html pages*/
+/*<h1> and <h2> elements should have their font variant, size and family etc. set using the short-hand "font" property*/
+h1, h2, h3{
+    font: bold 1.8em 'Crimson Pro', calarbri;
+	color: rgb(46, 84, 235);
+}
+
+
+
+/*css style rules apply to the hyperlinks included in the header section on all pages*/
+#header_menu{
+    clear: both;
+    text-align: left;
+}
+
+/* right aligning labels next to inputs with the text-align property*/
+label {
+	display: inline-block;
+	width: 150px;
+	color: #777777;
+}
+
+input {
+	padding: 5px 10px;
+}
+
+
+
+/*css style rules apply to the hyperlinks included in the header section on all pages*/
+nav a.menu, button.menu{
+	text-decoration: none; 
+	padding: 0.4em 0.4em; 
+    border: 4px solid #ccc;
+    font-size: 110%;
+    width: 130px;
+	font-weight: bold;
+    color: black;
+    display: inline-block;
+    text-align: center;           
+}
+
+
+/*Pseudo classes*/
+a:hover{
+	background-color: lightblue;
+	border-color: darkblue;
+}
+
+
+
+/*css style rules apply to index.html*/
+.bg{
+	background-image: url("Camels.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	Background-position: center;
+	background-size: cover;
+}
+
+/*css style rules apply to index.html*/
+/*https://w3schoolsrus.github.io/howto/howto_css_blurred_background.html*/
+.content{
+	background-color: rgba(0,0,0, 0.0); /* Black w/opacity/see-through */
+	color: white;
+    font-weight: bold;
+	position: absolute;
+	top: 86px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+	text-align: center;			
+}
+
+
+
+/*shown only for small display*/
+.small_display{
+	display: none;
+}
+
+
+/*css style rules apply to table elements in topic.html*/
+table{
+	border-collapse: collapse;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid rgb(46, 84, 235);
+}
+
+/*css style rules apply to table elements in topic.html*/
+table, th, td{
+	/*border: 1.5px solid black; */
+	font-size: 100%;
+	padding-left: 5px;
+}
+
+/*css style rules apply to table elements in topic.html*/
+table caption{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*css style rules apply to table elements in topic.html*/
+th{
+	width: 150px;
+    background-color: rgb(75, 175, 241);
+	text-align: right;  
+    color: white;
+	padding-right: 8px;  
+}
+
+td{
+    background-color: rgba(223, 229, 231, 0.945);
+	width: 500px;
+}
+
+/*css style rules apply to table elements in topic.html*/
+/*Pseudo classes*/
+td:nth-child(2), td:last-child{
+	text-align: left;
+}
+
+/*css style rules apply to elements in the header section repeated in topic.html and quiz.html*/
+header{
+	border: 1px inset darkgray;
+	border-radius: 14px;
+	padding: 1em;
+	background-color: rgb(75, 175, 241);    
+}
+
+
+
+/*css style rules apply to elements in quiz.html*/
+legend{
+	color: rgb(46, 84, 235); 
+	font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+
+
+/*css style rules apply to the section where input buttons located*/ 
+#buttons{
+	border: none;
+	float: left;
+}
+
+/*css style rules apply to input buttons*/ 
+/*source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button*/
+.blueButton{
+	background-color: rgb(75, 175, 241); 
+	border: none;
+	border-radius: 14px;
+	color: white;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding: 8px 20px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button {
+	background-color: rgb(75, 175, 241); 
+	border: none;
+	border-radius: 14px;
+	color: white;
+	font-size: 0.8em;
+	/* font-weight: bold; */
+	padding: 4px 10px;
+	text-decoration: none;
+	/* margin: 4px 2px;
+	cursor: pointer; */
+}
+
+
+#submit:hover, #reset:hover{
+	background-color: darkblue;
+}
+
+
+  .redText{
+	  font-style: italic;
+	  font-size: 102%;
+	  color: rgb(204, 17, 17); 
+  }
+
+ 
+  fieldset{
+	border: 1px solid rgb(46, 84, 235);
+	width: 750px;
+	margin:auto;
+	text-align: left;
+  }
+
+  span.confirmed{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 102%;
+	color: rgb(35, 49, 236); 
+}
+
+  span.failed{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 102%;
+	color: rgb(243, 11, 11); 
+}
+
+
+
+.button_result{
+	background-color: rgb(75, 175, 241); 
+	border: none;
+	border-radius: 14px;
+	color: white;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding: 8px 25px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+
+
+
+  
+
+  

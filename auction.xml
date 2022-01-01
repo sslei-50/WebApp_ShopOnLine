@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Listings>
+    <ListedItem>
+        <ItemID>1000001</ItemID>
+        <ItemName>iPhone 10</ItemName>
+        <Category>Phone</Category>
+        <Description>6 months young, as new conditions</Description>
+        <StartPrice>100.00</StartPrice>
+        <ReservePrice>200.00</ReservePrice>
+        <BuyItNowPrice>250.00</BuyItNowPrice>
+        <Duration>2021-11-02 12:50:00</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1001</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1003</BidderID>
+        <BidPrice>200.00</BidPrice>
+    </ListedItem>
+    <ListedItem>
+        <ItemID>1000002</ItemID>
+        <ItemName>Canon Zoom Lens</ItemName>
+        <Category>Camera</Category>
+        <Description>EF 28-80mm f II Zoom AF Camera Lens. Pick up only.</Description>
+        <StartPrice>50.00</StartPrice>
+        <ReservePrice>100.00</ReservePrice>
+        <BuyItNowPrice>115.00</BuyItNowPrice>
+        <Duration>2021-11-04 12:30:55</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1002</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1001</BidderID>
+        <BidPrice>90.00</BidPrice>
+    </ListedItem>
+    <ListedItem>
+        <ItemID>1000003</ItemID>
+        <ItemName>Dining Table</ItemName>
+        <Category>Other</Category>
+        <Description>2016 Timber table. Pick up only.  As new conditions.</Description>
+        <StartPrice>0.00</StartPrice>
+        <ReservePrice>100.00</ReservePrice>
+        <BuyItNowPrice>110.00</BuyItNowPrice>
+        <Duration>2021-10-30 12:30:55</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1002</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1004</BidderID>
+        <BidPrice>90.00</BidPrice>
+    </ListedItem>
+    <ListedItem>
+        <ItemID>1000004</ItemID>
+        <ItemName>Land Rover</ItemName>
+        <Category>Car</Category>
+        <Description>2015 Land Rover Discovery Sport TD4.</Description>
+        <StartPrice>25000.00</StartPrice>
+        <ReservePrice>40000.00</ReservePrice>
+        <BuyItNowPrice>45000.00</BuyItNowPrice>
+        <Duration>2021-10-30 12:30:55</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1002</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1001</BidderID>
+        <BidPrice>30000.00</BidPrice>
+    </ListedItem>
+    <ListedItem>
+        <ItemID>1000005</ItemID>
+        <ItemName>GoPro Hero10 Black</ItemName>
+        <Category>Camera</Category>
+        <Description>Free dual battery charger and spare battery.</Description>
+        <StartPrice>300.00</StartPrice>
+        <ReservePrice>500.00</ReservePrice>
+        <BuyItNowPrice>550.00</BuyItNowPrice>
+        <Duration>2021-11-10 12:30:55</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1003</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1004</BidderID>
+        <BidPrice>505.00</BidPrice>
+    </ListedItem>
+    <ListedItem>
+        <ItemID>1000006</ItemID>
+        <ItemName>Leather Handbag</ItemName>
+        <Category>Other</Category>
+        <Description>Brand new lady leather handbag. Never used.</Description>
+        <StartPrice>0.00</StartPrice>
+        <ReservePrice>150.00</ReservePrice>
+        <BuyItNowPrice>180.00</BuyItNowPrice>
+        <Duration>2021-10-21 09:30:55</Duration>
+        <CurrentDate>2021-10-20</CurrentDate>
+        <CurrentTime>11:26:59</CurrentTime>
+        <SellerID>1002</SellerID>
+        <Status>in progress</Status>
+        <BidderID>1003</BidderID>
+        <BidPrice>100.00</BidPrice>
+    </ListedItem>
+</Listings>
